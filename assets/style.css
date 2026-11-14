@@ -577,6 +577,9 @@ button { font-family: inherit; border: none; background: none; cursor: pointer; 
 .foot-bottom { margin-top: 34px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 10px; font-family: var(--font-mono); font-size: 9.5px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--white-30); position: relative; }
 .foot-bottom .ok { display: inline-flex; align-items: center; gap: 7px; }
 .foot-bottom .ok i { width: 6px; height: 6px; border-radius: 50%; background: var(--lime); animation: pulse 2s infinite; }
+.foot-credit { margin-top: 18px; padding-top: 18px; border-top: 1px solid rgba(255, 255, 255, 0.06); text-align: center; font-size: 12.5px; line-height: 1.9; color: var(--white-30); position: relative; }
+.foot-credit a { color: rgba(235, 235, 235, 0.78); font-weight: 600; text-decoration: none; border-bottom: 1px dashed rgba(204, 255, 0, 0.35); transition: color 0.3s var(--ease), border-color 0.3s var(--ease); }
+.foot-credit a:hover, .foot-credit a:focus-visible { color: var(--lime); border-bottom-color: var(--lime); }
 
 /* ---------- to-top ---------- */
 .to-top {
